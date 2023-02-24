@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/e498d22465.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+</head>
+
+<body id="page">
+
+    <main class="contenedor">
+        <!-- inicio header-->
+        <header class="barra-menu" id="menu">
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img
+                    src="https://img.icons8.com/external-jumpicon-glyph-ayub-irawan/512/external-hamburger-basic-ui-jumpicon-glyph-jumpicon-glyph-ayub-irawan-2.png"
+                    alt="menu"></label>
+            <nav class="menu">
+                <ul class=" lista-menu">
+                    <li><a href="#sobre-mi"> SOBRE MI</a></li>
+                    <li><a href="#skills">HABILIDADES</a></li>
+                    <li><a href="#deporte">DEPORTE</a></li>
+                    <li><a href="#vino">VINO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                   
+                </ul>
+            </nav>
+
+        </header>
+        <!-- final header-->
+
+        <!-- PORTADA -->
+        <div class="conteiner-cover">
+
+            <div class="conteiner-info-cover">
+
+                <h1 id="javas">
+                    AGUSTIN FRANCO
+                </h1>
+
+            </div>
+        </div>
+
+        <!-- FIN PORTADA -->
+
+        <!-- PRESENTACION PERSONAL tecno -->
+        <section id="sobre-mi">
+            <div id="fotoagus">
+                <img src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/agus.png" alt="agus.png">            </div>
+            <div class="biografia">
+               <h2>Mi nombre es Agustín Franco, estudiante de la Tecnicatura en Programación en la
+               Universidad Tecnológica Nacional de Mar del Plata, apasionado de la tecnologia y la informatica.
+               Por esto mismo he realizado varios cursos, y sigo capacitandome continuamente 
+              para estar lo mas actualizado posible. Aqui les dejare un breve resumen
+               de mis conocimientos y habilidades en varios ambitos.</h2>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 id="tecno" class="tit">TENCO</h2>
+            <h3 class="tit">
+                Habilidades Adquiridas
+            </h3>
+            <section class="skills">
+                <!-- html -->
+                <div class="html">
+                    <img src="https://jaestic.com/wp-content/uploads/2012/12/01-1-270x270.jpg" width="150" height="150"
+                        alt="icono html5">
+                    <p>
+                        HTML 5 es la quinta revisión importante del lenguaje básico de la World Wide Web. Sirve para
+                        definir
+                        la estructura y el contenido de una pagina web.
+                    </p>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML">WEB</a>
+                </div>
+                <!-- fin html -->
+
+                <!-- css -->
+                <div class="css">
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" width="150" height="150"
+                        alt="icono css">
+                    <p>
+                        CSS es un lenguaje de diseño gráfico para definir y crear la presentación de un documento
+                        estructurado escrito en un lenguaje marcado.
+                    </p>
+                    <a href="https://developer.mozilla.org/es/docs/Web/CSS">WEB</a>
+                </div>
+                <!-- fin css -->
+
+                <!-- js -->
+                <div class="js">
+                    <img src=" https://cdn-icons-png.flaticon.com/512/919/919828.png" width="150" height="150"
+                        alt="icono JavaScript">
+                    <p>
+                        JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se
+                        define
+                        como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
+                    </p>
+                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">WEB</a>
+
+                </div>
+                <!-- fin js -->
+
+                <!-- gh -->
+                <div class="github">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"  width="150"
+                        height="150">
+
+                    <p>
+                        GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se
+                        utiliza
+                        principalmente para la creación de código
+                        fuente de programas de ordenador.
+                    </p>
+                    <a href="https://github.com/">WEB</a>
+
+                </div>
+                <!-- fin gh -->
+
+                <!-- boots -->
+                <div class="bootstrap">
+                    <img src="https://img.icons8.com/color/512/bootstrap.png" width="150"
+                        height="150" alt="icono bootstrap">
+
+                    <p>
+                        Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para
+                        diseño
+                        de
+                        sitios y aplicaciones web.
+                    </p>
+                    <a href="https://getbootstrap.com/">WEB</a>
+
+            </section>
+        </section>
+        <!-- FIN PRESENTACION PERSONAL Tecno -->
+
+        <!-- INFO DEPORTIVA -->
+
+        <section id="deporte">
+
+            <section class="logros">
+                <h1 class="tit">DEPORTE</h1>
+                <h2>
+                    Otra de mis pasiones es el deporte y me desempeño hace varios años como jugador y entrenador de
+                    Hockey, en donde he logrado varios titulos a nivel local y Nacional, con clubes y seleccionados
+                    locales.
+                </h2> 
+                <br>
+                <div id="hola" class="main-carousel">
+                    <div class="cell"> <img id="1" class="foto"
+                         src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/h1.jpeg">
+                    </div>
+                    <div class="cell"> <img id="2" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/h2.jpeg">
+                    </div>
+                    <div class="cell"> <img id="3" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/h3.jpeg">
+                    </div>
+                    <div class="cell"> <img id="4" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/h4.jpeg">
+                    </div>
+                </div>
+                
+                <h3>LOGROS COMO ENTRENADOR // CLUBES</h3>
+                
+                <ul>
+                    <li>-Campeon Torneo local A 1era e intermedia</li>
+                    <li>-Campeon Torneo local B 1era e intermedia</li>
+                    <li>-Ascenso al torneo local A</li>
+                    <li>-Campeon torneo mar y sierras</li>
+                    <br>
+                </ul>
+
+
+                <h3>LOGROS COMO ENTRENADOR // SELECCIONADOS LOCALES</h3>
+                
+                <ul>
+                    <li>-Campeon Regional sub 14 y 16</li>
+                    <li>-Sub campeonato regional sub 14 y 16</li>
+                    <li>-Tercer puesto Campeonato Nacional sub 16 (mejor marca de la ciudad)</li>
+                    <li>-Ascenso al Campeonato Nacional con el seleccionado mayor de damas</li>
+                    <br>
+                </ul>
+
+
+                <h3>LOGROS COMO JUGADOR // CLUBES</h3>
+                
+                <ul>
+                    <li>-Campeon regional A</li>
+                    <li>-Pentacampeon torneo local</li>
+                    <li>-Tercer puesto torneo Metropolitano B</li>
+                    <br>
+                </ul>
+
+
+                <h3>LOGROS COMO JUGADOR // SELECCIONADO LOCAL</h3>
+                
+                <ul>
+                    <li>-Campeon torneo regional bonaerense B</li>
+                    <li>-Ascenso al Campeonato Nacional A</li>
+                    <br>
+                </ul>
+
+                <br>
+            </section>
+
+
+
+        </section>
+
+        <!-- FIN INFO DEPORTIVA -->
+
+
+        <!-- VINOS -->
+        <section id="vino">
+            <section class="vinos">
+                <h1 class="tit">VITIVINICULTURA</h1>
+                <h2>
+                    Tambien realice la carrera de Sommelier, en la que me especialice en la vitivinicultura Nacional
+                    , realice varias catas con los mejores enologos del pais en las cuales pude aprender mucho acerca
+                    del fabuloso mundo del vino argentino y su cepa caracteristica como es el Malbec.
+                </h2>
+
+                <div id="hola2" class="main-carousel">
+                    <div class="cell"> <img id="5" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/v1.jpeg">
+                    </div>
+                    <div class="cell"> <img id="6" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/v2.jpeg">
+                    </div>
+                    <div class="cell"> <img id="7" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/v3.jpeg">
+                    </div>
+                    <div class="cell"> <img id="8" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/v4.jpeg">
+                    </div>
+                    <div class="cell"> <img id="9" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/v5.jpeg">
+                    </div>
+                    <div class="cell"> <img id="10" class="foto"
+                        src="https://raw.githubusercontent.com/agusfranco89/MiPrimerWeb/main/v6.jpeg">
+                    </div>
+                </div>
+
+                <h3 class="list"> CATAS REALIZADAS CON ENOLOGOS </h3>
+                <ul>
+
+                    <li>-Trapiche costa y pampa "Daniel Pi"</li>
+                    <li>-Trivento "Maximiliano Ortiz"</li>
+                    <li>-Bianchi "Silvio Alberto"</li>
+                    <li>-Santa Julia/Zuccardi "Familia Zuccardi</li>
+
+                    <br>
+                </ul>
+
+
+
+            </section>
+            <div class="up">
+                <a href="#menu"><img src="https://cdn-icons-png.flaticon.com/512/44/44394.png" width="30" height="30" ></a> 
+        </div>
+        <br>
+        <br>
+        </section>
+        <!-- FIN VINOS -->
+        
+        <!-- CONTACTO -->
+        <section id="contacto">
+            
+            <div class="contactos">
+                    <form id="form" action="https://formspree.io/f/mayzqraj" method="POST">
+                    <ul>
+                        <li>
+                            <label for="name"></label>
+                            <input type="text" id="nombre" name="Nombre" placeholder="Nombre completo" required/>
+                        </li>
+                        <li>
+                            <label for="mail" ></label>
+                            <input type="email" id="correo" name="Mail" placeholder="Correo electronico" required/>
+                        </li>
+                        <li>
+                            <label for="msg"></label>
+                            <textarea id="msj" name="Mensaje" placeholder="Mensaje" required></textarea>
+                        </li>
+                        <li>
+                            <button id="eform" type="submit">ENVIAR</button>
+                        </li>
+                        
+                        </form>
+            </div>
+            <div class="redes"> 
+                    <a href="mailto:agustin_fn@hotmail.com" target="_blank"> <img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Correo"> </a>
+                   
+                    <a href="https://github.com/agusfranco89" target="_blank"> <img src="https://img.icons8.com/bubbles/50/000000/repository.png" alt="github"></a>
+            </div>
+            
+        </section>  
+       
+
+
+        
+        <!-- CONTACTO -->
+    
+
+    </main>
+
+    <div class="container-btn-mode">
+        <div id="id-sun" class="btn-mode sun active">
+           <i class="fas fa-sun"></i>
+        </div>
+        <div id="id-moon" class="btn-mode moon">
+           <i class="fas fa-moon"></i>
+        </div>
+     </div>
+
+    <footer class="footer">
+        <h4> © Agustin Franco - agustin_fn@hotmail.com</h4> 
+    </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            freeScroll: true
+        });
+    </script>
+    <script src="javas.js"></script>
+</body>
+
+
+</html> 

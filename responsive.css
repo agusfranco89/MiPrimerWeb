@@ -1,0 +1,406 @@
+
+/*tablet en horizontal y escritorios normales*/
+@media(max-width:1200px) {
+    main{
+        font-size: 3.5vw;
+    }
+
+    #btn-menu:checked~.menu {
+        width: 95%;
+        margin: 0;
+    }
+
+    header {
+        width: 15%;
+    }
+
+    header label img {
+        margin-left: 91%;
+    }
+
+    .biografia{
+        width: 90%;
+    }
+    .biografia h2{
+        font-size: 20px;
+    }
+    .biografia p{
+        font-size: 16px;
+    }
+
+    .texto-portada h1 {
+        padding-top: 50px;
+    }
+
+    #skills {
+       width: 95%;
+    }
+
+    .skills img{
+        size: 1.5em;
+
+    }
+
+    .html {
+        width: 43%;
+        margin-left: 35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;
+    }
+
+    .html:hover {
+        width: 45%;
+    }
+
+    .css {
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-right: 0;
+    }
+
+    .css:hover {
+        width: 45%;
+    }
+
+    .js {
+        width: 43%;
+        margin-left: 35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;
+    }
+
+    .js:hover {
+        width: 45%;
+    }
+
+    .github {
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-right: 0;
+    }
+
+    .github:hover {
+        width: 45%;
+    }
+
+    .bootstrap {
+        width: 43%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 350px;
+    }
+
+    .bootstrap:hover {
+        width: 45%;
+    }
+
+   .cell img{
+        width: 180px;
+        height: 250px;
+
+   }
+
+
+}
+
+/* moviles en horizontales o tablets en vertical*/
+@media(max-width: 768px) {
+
+    #btn-menu:checked~.menu {
+        width: 95%;
+        margin: 0;
+    }
+
+    header {
+        width: 95%;
+    }
+
+    header label img {
+        margin-left: 88%;
+    }
+
+    .portada {
+        height: 240px;
+        width: 95%;
+    }
+
+    .texto-portada h1 {
+        padding-top: 50px;
+    }
+
+    .conteiner-info-cover h1{
+        font-size: 70px;
+    }
+
+    #skills {
+        width: 95%;
+    }
+
+    .html {
+        width: 43%;
+        margin-left: 35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;
+    }
+
+    .html:hover {
+        width: 45%;
+    }
+
+    .css {
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-right: 0;
+    }
+
+    .css:hover {
+        width: 45%;
+    }
+
+    .js {
+        width: 43%;
+        margin-left: 35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;
+    }
+
+    .js:hover {
+        width: 45%;
+    }
+
+    .github {
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-right: 0;
+    }
+
+    .github:hover {
+        width: 45%;
+    }
+
+    .bootstrap {
+        width: 43%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 350px;
+    }
+
+    .bootstrap:hover {
+        width: 45%;
+    }
+
+    #hola{
+        height: 200px;
+    }
+
+    .cell img{
+        width: 180px;
+        height: 150px;
+
+    }
+    #hola2{
+        height: 200px;
+    }
+    #contacto{
+        width: 100%;
+    }
+
+    .contactos form{
+        width: 450px;
+    }
+
+    .contactos ul{
+        width: 100%;
+    }
+
+    #form input, textarea{
+        width: 90%;
+    }
+   
+    .redes img{
+        display: block;
+        height: 3em;
+        margin: 4em 0 0 auto;
+    }
+    
+    .footer{
+        width: 100%;
+        justify-content: center;
+            }
+  
+
+}
+
+
+
+/*moviles en vertical*/
+@media(max-width:576px) {
+
+    
+    header {
+        width: 100%;
+        margin: auto;
+        padding-left: 0;
+    }
+    #sobre-mi{
+        width: 100%;
+    }
+
+    .sobre-mi{
+        display: block;
+    }
+
+    .biografia h2{
+        font-size:100%;
+        padding: 1px;        
+    }
+
+    .portada {
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .conteiner-info-cover h1{
+        font-size: 60px;
+    }
+
+    .skills{
+        width: 100%;
+       
+    }
+
+    .skills img{
+        width: 80%;
+        height: 80%;
+        
+    }
+
+    .skills p {
+        display: none;
+    }
+
+    .html {
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+
+    .html:hover {
+        width: 45%;
+    }
+
+    .css {
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+
+    .css:hover {
+        width: 45%;
+    }
+
+    .js {
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+
+    .js:hover {
+        width: 45%;
+    }
+
+    .github {
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+
+    .github:hover {
+        width: 45%;
+    }
+
+    .bootstrap {
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+
+    .bootstrap:hover {
+        width: 45%;
+    }
+
+    #hola{
+        height: 200px;
+    }
+
+    .cell img{
+        width: 100px;
+        height: 70px;
+
+    }
+
+    .logros h2{
+    font-size:100%;
+    padding: 1px;        
+}
+
+    .vinos h2{
+    font-size:100%;
+    padding: 1px;        
+}
+
+#hola2{
+    height: 200px;
+}
+    .cell img{
+    width: 100px;
+    height: 150px;
+}
+
+    #contacto{
+        width: 85%;
+    }
+
+    .contactos form{
+        width: 150px;
+    }
+
+    .contactos ul{
+        width: 100%;
+    }
+
+    #form input, textarea{
+        width: 90%;
+    }
+   
+    .redes img{
+        display: block;
+        height: 3em;
+        margin: 4em 0 0 auto;
+    }
+    
+    .footer{
+        width: 100%;
+        height: 100px;
+            }
+    
+}
+
